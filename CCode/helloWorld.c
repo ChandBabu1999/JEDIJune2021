@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main(){
-	helloWorld();
+	char name[] = "Alia Bharti";
+	greet();
 }
 
-void helloWorld(){
-	printf("Hello World!");
-	printf("Hello World!");
+void greet(char string[]){
+	printf("Hello World!, how are you? %s", string);
 }
